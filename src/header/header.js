@@ -77,4 +77,4 @@ container.appendChild(nav);
 
 header.appendChild(container);
 
-export default header;
+export { liNodes, header };
