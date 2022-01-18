@@ -8,6 +8,10 @@ header {
   align-items: center;
 }
 
+header .logo {
+  padding: 0.5rem 0;
+}
+
 header a,
 header a:hover {
   color: inherit;
@@ -43,10 +47,17 @@ nav li.selecionado {
   padding-bottom: 1.25rem;
 }
 
-.container {
+header .container {
   width: 100%;
   max-width: 1280px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (min-width: 600px) {
+  header .container {
+    flex-direction: row;
+  }
 }
