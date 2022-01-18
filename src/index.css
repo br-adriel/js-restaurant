@@ -14,8 +14,20 @@ body {
   background: #fdfaf6;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 ul {
   list-style-type: square;
+}
+
+p,
+span {
+  font-size: 1.1rem;
 }
 
 a {
@@ -27,6 +39,26 @@ a {
 a:hover {
   color: #000;
   text-decoration: underline;
+}
+
+button {
+  color: #fff;
+  border: none;
+  background-color: #064420;
+  transition: 0.2s all;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #266440;
+}
+
+button:active {
+  color: #064420;
+  background-color: #fff;
 }
 
 #content {
