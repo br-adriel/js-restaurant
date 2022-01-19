@@ -9,18 +9,7 @@
 }
 
 .tab-inicio section {
-  padding: 1rem;
   width: 100%;
-}
-
-.tab-inicio .bloco {
-  background: rgb(250, 241, 230);
-  box-shadow: 0 0.1rem 0.3rem rgba(200, 191, 180, 0.5);
-  border-radius: 0.5rem;
-}
-
-.tab-inicio img {
-  border-radius: 0.5rem;
 }
 
 .tab-inicio .apresentacao {
@@ -32,11 +21,6 @@
   gap: 1rem;
 }
 
-.tab-inicio .apresentacao img {
-  width: 100%;
-  height: auto;
-}
-
 .tab-inicio .apresentacao div {
   text-align: center;
 }
@@ -44,10 +28,6 @@
 .tab-inicio .apresentacao p {
   margin-top: 0.5rem;
   padding: 0.5rem;
-}
-
-.tab-inicio .cursivo {
-  font-size: 2.2rem;
 }
 
 .tab-inicio .destaques {
@@ -61,7 +41,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 1rem;
 }
 
 .tab-inicio .destaque div {
