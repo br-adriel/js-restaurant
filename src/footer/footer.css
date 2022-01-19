@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  background: #064420;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+footer,
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e4efe7;
+}

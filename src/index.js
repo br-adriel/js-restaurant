@@ -1,13 +1,16 @@
 import "./index.css";
 import { header, liNodes } from "./header/header";
 import inicio from "./tab-inicio/tabInicio";
+import footer from "./footer/footer";
 
 const content = document.getElementById("content");
 content.appendChild(header);
 
 const main = document.createElement("main");
 main.appendChild(inicio);
-content.append(main);
+content.appendChild(main);
+
+content.appendChild(footer);
 
 // implementa troca de guias
 liNodes.map((li) => {
