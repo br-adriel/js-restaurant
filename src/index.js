@@ -1,6 +1,7 @@
 import "./index.css";
 import { header, liNodes } from "./header/header";
 import inicio from "./tab-inicio/tabInicio";
+import contato from "./tab-contato/tabContato";
 import footer from "./footer/footer";
 
 const content = document.getElementById("content");
@@ -26,6 +27,7 @@ liNodes.map((li) => {
       case "nav-cardapio":
         break;
       case "nav-contato":
+        main.appendChild(contato);
         break;
     }
   });
