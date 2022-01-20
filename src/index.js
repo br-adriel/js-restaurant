@@ -1,6 +1,7 @@
 import "./index.css";
 import { header, liNodes } from "./header/header";
 import inicio from "./tab-inicio/tabInicio";
+import cardapio from "./tab-cardapio/tabCardapio";
 import contato from "./tab-contato/tabContato";
 import footer from "./footer/footer";
 
@@ -25,6 +26,7 @@ liNodes.map((li) => {
         main.appendChild(inicio);
         break;
       case "nav-cardapio":
+        main.appendChild(cardapio);
         break;
       case "nav-contato":
         main.appendChild(contato);
